@@ -8,4 +8,6 @@ function fact()
    fact=fact*i;  
     }
 document.getElementById("result").value=fact;
+document.getElementById("result").style.backgroundColor="antiquewhite";
+document.getElementById("result").style.color="green";
 }

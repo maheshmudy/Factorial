@@ -24,6 +24,7 @@ button
 input{
     height: 30px;
     font-size: large;
+    font-weight: 550;
 }
 label{
   font-size: 20px;
