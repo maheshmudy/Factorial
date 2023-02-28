@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Factorial</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <table>
-        <tr>
-           <td colspan="2">
+        <tr >
+           <td colspan="2" ">
                 <h2>Find Factorial Of A Number </h2>
+                <hr>
            </td>
         </tr>
         <tr>
@@ -18,12 +21,12 @@
                 <label for="number">Enter A Number : </label>
             </td>
             <td>
-                <input type="text">
+                <input type="text" id="number">
             </td>
         </tr>
         <tr>
             <td colspan="2">
-                <button>Find Factorial</button>
+                <button onclick="fact()">Find Factorial</button>
             </td>
         </tr>
         <tr>  
