@@ -9,5 +9,5 @@ function fact()
     }
 document.getElementById("result").value=fact;
 document.getElementById("result").style.backgroundColor="antiquewhite";
-document.getElementById("result").style.color="green";
+document.getElementById("result").style.color="red";
 }
